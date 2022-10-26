@@ -29,6 +29,12 @@ body{
     grid-row: 2/3;
 }
 
+.four{
+    display: flex;
+    background-color: #A6CAD4;
+    justify-content: center;
+}
+
 h1{
     color: black;
     font-family: 'Montserrat', sans-serif;
