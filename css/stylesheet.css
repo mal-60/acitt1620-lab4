@@ -14,11 +14,19 @@ body{
     padding: 10px;
 }
 
-.two{
+.para-container{
     display: grid;
-    grid-auto-rows: 100px 1fr 2fr;
-    grid-template-columns: 1fr;
-    grid-column: 1/-1;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    /* grid-auto-rows: 100px 1fr 2fr; */
+}
+
+.two{
+    grid-column: 2/3;
+}
+
+.three{
+    grid-row: 2/3;
 }
 
 h1{
