@@ -11,6 +11,7 @@ body{
 .one{
     background-color: #A6CAD4;
     justify-content: center;
+    padding: 10px;
 }
 
 .two{
