@@ -2,16 +2,36 @@ body{
     background-color: beige;
 }
 
+.container div{
+    background-color: #A6CAD4;
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    background-color: #A6CAD4;
+    justify-content: center;
+}
+
+.two{
+    display: grid;
+    grid-auto-rows: 100px 1fr 2fr;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+}
+
 h1{
-    color: rgb(7, 188, 212);
+    color: black;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+nav{
+    justify-content: center;
 }
 
 p{
     color:rgb(0, 0, 0)
 }
 
-nav{
-    background-color: lightblue;
-    text-align: center;
-}
+
