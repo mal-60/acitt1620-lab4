@@ -53,11 +53,16 @@ p{
     color:rgb(0, 0, 0)
 }
 
-@media (max-width:600px) {
+@media screen and (max-width:600px) {
     ul{
         list-style-type: none;
         display: grid;
         grid-column: 2/3;
         grid-row: 2/2;
         }
+}
+
+@media screen and (min-width:601px) {
+    ul{
+        list-style-type: none;
 }
