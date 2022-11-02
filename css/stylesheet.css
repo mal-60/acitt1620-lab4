@@ -8,11 +8,12 @@ body{
     justify-content: center;
 }
 
-.one{
+.main-headers{
     background-color: #A6CAD4;
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
     padding: 10px;
+
 }
 
 .para-container{
@@ -44,33 +45,48 @@ nav{
     justify-content: center;
 }
 
-p{
-    color:rgb(0, 0, 0)
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li{
+    grid-column: 1;
 }
 
 .course{
     display: grid;
     grid-column: 2;
+    border-bottom: 5px;
 }
 
-@media screen and (max-width:600px) {
+
+/* @media screen and (max-width:600px) {
     ul{
         list-style-type: none;
         display: grid;
         }
-    hr{
+} */
 
-    }
-}
-
-@media screen and (min-width:601px) {
+@media screen and (min-width:600px) {
     ul{
         list-style-type: none;
         display: grid;
         grid-column: 2/3;
         grid-row: 2/2;
-        }
-    hr{
+        padding-left: 0px;
+    }
 
+    .course{
+        display: grid;
+        grid-column: 2;
+        border-bottom: 5px;
+    }
+
+    .main-headers{
+        background-color: #A6CAD4;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: center;
+        padding: 10px;
     }
 }
