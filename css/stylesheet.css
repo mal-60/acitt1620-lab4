@@ -71,7 +71,7 @@ li{
 @media screen and (min-width:600px) {
     ul{
         list-style-type: none;
-        display: grid;
+        /* display: grid; */
         grid-column: 2/3;
         grid-row: 2/2;
         padding-left: 0px;
